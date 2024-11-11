@@ -10,6 +10,8 @@ const hoursValue = document.querySelector('[data-hours]');
 const minutesValue = document.querySelector('[data-minutes]');
 const secondsValue = document.querySelector('[data-seconds]');
 
+
+btnStart.disabled = true;
 let userSelectedDate;
 let timeInterval;
 
