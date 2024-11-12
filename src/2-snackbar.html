@@ -11,28 +11,28 @@
 <body>
     <div class="container">
         <a class="back-link" href="./index.html">Go back</a>
-        <!-- <section class="section-timer">
-            <input type="text" id="datetime-picker" />
-            <button type="button" data-start>Start</button>
-            <div class="timer">
-                <div class="field">
-                    <span class="value" data-days>00</span>
-                    <span class="label">Days</span>
-                </div>
-                <div class="field">
-                    <span class="value" data-hours>00</span>
-                    <span class="label">Hours</span>
-                </div>
-                <div class="field">
-                    <span class="value" data-minutes>00</span>
-                    <span class="label">Minutes</span>
-                </div>
-                <div class="field">
-                    <span class="value" data-seconds>00</span>
-                    <span class="label">Seconds</span>
-                </div>
-            </div>
-        </section> -->
+        <section class="snackbar">
+            <form class="form">
+                <label>
+                    Delay (ms)
+                    <input type="number" name="delay" required />
+                </label>
+
+                <fieldset>
+                    <legend>State</legend>
+                    <label>
+                        <input type="radio" name="state" value="fulfilled" required />
+                        Fulfilled
+                    </label>
+                    <label>
+                        <input type="radio" name="state" value="rejected" required />
+                        Rejected
+                    </label>
+                </fieldset>
+
+                <button type="submit">Create notification</button>
+            </form>
+        </section>
     </div>
     <script type="module" src="./js/2-snackbar.js"></script>
 </body>

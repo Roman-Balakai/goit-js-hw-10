@@ -75,3 +75,55 @@ button:hover {
   color: #2e2f42;
   font-family: 'Montserrat', sans-serif;
 }
+/* snackbar */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 40px;
+}
+.form label {
+  display: flex;
+  flex-direction: column;
+}
+.form label > input {
+  background-color: #fff;
+  width: 334px;
+}
+fieldset {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 8px;
+  min-width: 262px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+.form fieldset > label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.form fieldset > label > input {
+  border: 1px solid #757575;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+}
+.snackbar button {
+  background-color: #4e75ff;
+  width: 360px;
+  margin-top: 8px;
+}
+.snackbar button:hover {
+  background-color: #6c8cff;
+}

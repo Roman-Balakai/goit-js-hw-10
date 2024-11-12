@@ -24,7 +24,6 @@ const options = {
     if (!selectedDates || !selectedDates[0]) return;
     const selectedDate = selectedDates[0];
     console.log(selectedDate);
-
     if (selectedDate < new Date()) {
       iziToast.error({
         timeout: 10000,
